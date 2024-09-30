@@ -49,5 +49,8 @@ Foreingn key: é uma referencia de outra tabela, uma chave primaria de outra tab
 Identity faz o incremento automatico
 onstraint siguinifica restrição
 
->constraint endereço fereingn key(IDcliente)
->references tabela_1(ID)
+>constraint endereço fereingn key(IDcliente) references tabela_1(ID)
+
+INNER JOIN - junta duas tabelas de acordo com as chaves
+
+>select * from clientes inner join endereços on clientes.id = enderecos.idcliente where clientes.id = 4

@@ -47,3 +47,7 @@ Primary key: chave que serve como indice
 Foreingn key: é uma referencia de outra tabela, uma chave primaria de outra tabela
 
 Identity faz o incremento automatico
+onstraint siguinifica restrição
+
+>constraint endereço fereingn key(IDcliente)
+>references tabela_1(ID)
